@@ -6,7 +6,7 @@ def three_digit():
     inp_file_addr = input("""\nyou should enter the file address with name and format
     for example in
     linux: /home/username/Documents/password_list.txt
-    windows: C:/user/Desktop/password_list.txt
+    windows: C:\\User\\username\\Desktop\\password_list.txt
     enter the adderss: """)
     file_addr = inp_file_addr
     file = open(file_addr, "w")
@@ -28,7 +28,7 @@ def four_digit():
     inp_file_addr = input("""\nyou should enter the file address with name and format
     for example in
     linux: /home/username/Documents/password_list.txt
-    windows: C:/user/Desktop/password_list.txt
+    windows: C:\\User\\username\\Desktop\\password_list.txt
     enter the adderss: """)
     file_addr = inp_file_addr
     file = open(file_addr, "w")
@@ -52,7 +52,7 @@ def five_digit():
     inp_file_addr = input("""\nyou should enter the file address with name and format
     for example in
     linux: /home/username/Documents/password_list.txt
-    windows: C:/user/Desktop/password_list.txt
+    windows: C:\\User\\username\\Desktop\\password_list.txt
     enter the adderss: """)
     file_addr = inp_file_addr
     file = open(file_addr, "w")
@@ -78,7 +78,7 @@ def six_digit():
     inp_file_addr = input("""\nyou should enter the file address with name and format
     for example in
     linux: /home/username/Documents/password_list.txt
-    windows: C:/user/Desktop/password_list.txt
+    windows: C:\\User\\username\\Desktop\\password_list.txt
     enter the adderss: """)
     file_addr = inp_file_addr
     file = open(file_addr, "w")
@@ -106,7 +106,7 @@ def seven_digit():
     inp_file_addr = input("""\nyou should enter the file address with name and format
     for example in
     linux: /home/username/Documents/password_list.txt
-    windows: C:/user/Desktop/password_list.txt
+    windows: C:\\User\\username\\Desktop\\password_list.txt
     enter the adderss: """)
     file_addr = inp_file_addr
     file = open(file_addr, "w")
@@ -136,7 +136,7 @@ def eight_digit():
     inp_file_addr = input("""\nyou should enter the file address with name and format
     for example in
     linux: /home/username/Documents/password_list.txt
-    windows: C:/user/Desktop/password_list.txt
+    windows: C:\\User\\username\\Desktop\\password_list.txt
     enter the adderss: """)
     file_addr = inp_file_addr
     file = open(file_addr, "w")
